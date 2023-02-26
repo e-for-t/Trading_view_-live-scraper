@@ -16,7 +16,7 @@ class algo:
         '''this is a toy function to represent what you want to do with the data.
             For now let's save it in a file.
             If you run,stop and run the program again, the file contents will be erased.
-            indexing is important because another thread may modify the DataFrame.
+            Local is important because another thread may modify the DataFrame.
         '''
         self.pdf.iloc[:index].to_csv('main1.csv',mode='w',index=False,header=True)
         while 1:
@@ -50,5 +50,6 @@ if __name__=='__main__':
     child_p.start()
     Tview_wsmsgs(S) #default option
     # Tview_wsmsgs(S,True) #uncomment to spefify timeslot e.g. minutes, hours, days etc  
+    S.send(1)
     child_p.terminate()
     
