@@ -51,5 +51,6 @@ if __name__=='__main__':
     Tview_wsmsgs(S) #default option
     # Tview_wsmsgs(S,True) #uncomment to spefify timeslot e.g. minutes, hours, days etc  
     S.send(1)
+    
     child_p.terminate()
     
