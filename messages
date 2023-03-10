@@ -1,0 +1,13 @@
+~m~526~m~{"m":"set_auth_token","p":["unauthorized_user_token"]}
+~m~55~m~{"m":"chart_create_session","p":["cs_XROjl1FK6WNG",""]}
+~m~52~m~{"m":"quote_create_session","p":["qs_bXWAHuxCI6G5"]}
+~m~153~m~{"m":"quote_add_symbols","p":["qs_bXWAHuxCI6G5","={\"adjustment\":\"splits\",\"currency-id\":\"USD\",\"session\":\"regular\",\"symbol\":\"CUR\"}"]}
+~m~162~m~{"m":"resolve_symbol","p":["cs_XROjl1FK6WNG","sds_sym_1","={\"adjustment\":\"splits\",\"currency-id\":\"USD\",\"session\":\"regular\",\"symbol\":\"CUR\"}"]}
+~m~64~m~{"m":"switch_timezone","p":["cs_XROjl1FK6WNG","Africa/Nairobi"]}
+~m~81~m~{"m":"create_series","p":["cs_XROjl1FK6WNG","sds_1","s1","sds_sym_1","TIME_DICT",LENGTH,""]}
+~m~432~m~{"m":"quote_set_fields","p":["qs_bXWAHuxCI6G5","base-currency-logoid","ch","chp","currency-logoid","currency_code","currency_id","base_currency_id","current_session","description","exchange","format","fractional","is_tradable","language","local_description","listed_exchange","logoid","lp","lp_time","minmov","minmove2","original_name","pricescale","pro_name","short_name","type","typespecs","update_mode","volume","value_unit_id"]}
+~m~154~m~{"m":"quote_fast_symbols","p":["qs_bXWAHuxCI6G5","={\"adjustment\":\"splits\",\"currency-id\":\"USD\",\"session\":\"regular\",\"symbol\":\"CUR\"}"]}
+~m~65~m~{"m":"request_more_tickmarks","p":["cs_XROjl1FK6WNG","sds_1",10]}
+~m~60~m~{"m":"request_more_data","p":["cs_XROjl1FK6WNG","sds_1",28]}
+~m~61~m~{"m":"quote_add_symbols","p":["qs_bXWAHuxCI6G5","CUR"]}
+~m~166~m~{"m":"quote_fast_symbols","p":["qs_bXWAHuxCI6G5","={\"adjustment\":\"splits\",\"currency-id\":\"USD\",\"session\":\"regular\",\"symbol\":\"CUR\"}","CUR"]}
